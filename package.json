@@ -1,0 +1,25 @@
+{
+  "name": "my_chat_app",
+  "version": "1.0.0",
+  "description": "I build this app from scratch.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "React",
+    "Mongoose",
+    "Chatting",
+    "App"
+  ],
+  "author": "Jerry.Z",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7",
+    "promise": "^8.1.0",
+    "socket.io": "^3.0.4"
+  }
+}
